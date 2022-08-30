@@ -1,0 +1,1126 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 1366px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mx-15{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.my-20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.px-200{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.py-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.logo h3{
+    font-size: 24px;
+    color: #21363b;
+}
+li{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #21363b;
+    font-family: Arial bold;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navi ul{
+    display: flex;
+}
+.join{
+    display: flex;
+    color: #21363b;
+    align-items: center;
+    margin-right: 50px;
+}
+.submit{
+    padding: 8px 18px;
+    background-color: #ffcd02;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 6px;
+    color: #21363b;
+    font-family: Arial bold;
+}
+.apartment{                   
+    position: relative;
+}
+.sky-blue {    
+    margin-left: auto;
+    background-color: #97becf;
+    width: 86%;
+    height: 450px;
+}
+.baner{
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+.heading{
+    width: 60%;
+    color: #21363b; 
+}
+.heading h1{
+    font-size: 38px;
+}
+.baner .search-bar{
+    width: 47%;
+    position: relative;
+}
+.search-bar{
+    height: 10px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 15px 0px;
+    margin-top: 30px;
+    color: #21363b; 
+}
+.search-bar  i{
+    position: absolute;
+    font-size:14px;
+    left: 10px;
+    color: #777; 
+}
+.search-bar input{
+    flex: 1;
+    padding: 20px 32px;
+    height: 40.5px;
+    box-sizing: border-box;
+    border: none;
+}
+.searchbtn{
+    padding: 12px 10px;
+    background-color: #ffcd02;
+    border: 0px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #21363b;
+    font-family: Arial bold;
+}
+.contact-address{
+    bottom: 0px;
+    display: flex;
+    position: absolute;
+    left: 519px;
+}
+.contact {
+    padding: 17px 27px;
+}
+.address {
+    padding: 17px 27px;
+}
+.contact, .address {    
+    background-color: #ffcd02;
+    border: 0px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #21363b;
+    font-family: Arial bold;
+}
+
+.scroll{
+    position: absolute;
+    left: -6%;
+    bottom: -138px;   
+    display: flex;
+    transform: rotate(270deg);
+}
+.scroll p{
+    font-size: 14px;
+}
+.statistics{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+.para{
+    width: 50%;
+}
+.static-cards{
+margin: 6px;
+}
+.para h1{
+    color: #21363b;
+    width: 51%;
+}
+.para p{
+    color: #21363b;
+    font-size: 14px;
+    line-height: 20px;
+}
+.cards{
+    background-color: #f6f5f3;
+    padding-top: 24px;
+    margin-top: 10px;
+    padding: 50px;
+    text-align: center;
+}
+.cards h1{
+    color: #fecb01;
+    font-size: 24px;
+}
+.cards p{
+    color: #21363b;
+    font-size: 12px;
+}
+.company-cards{
+    display: flex;
+    margin-right: 50px;
+}
+.street-card{
+    background-color:#f6f5f3;
+}
+.location-card{
+    display: flex;
+}
+.cardimg{
+    background-color: #b2d7e9;
+    height: 230px;
+    margin-bottom: 8px;
+}
+.icon-text{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+.texi{
+    margin-left: 8px;
+}
+.rent{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px 10px 15px;
+    align-items: center;
+}
+.df-icon-text{
+    display: flex;
+}
+.loc_card{
+    background-color: white;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    width: 33%;
+    box-shadow: 0px 0px 8px 2px lightgray;
+}
+.heading-loc-card h1{
+    font-size: 24px;
+    width: 36%;
+    color: #21363b;
+    padding: 15px 0px;
+}
+.carddata h4{
+    padding: 10px 34px;
+    font-size: 12px;
+    color: #21363b;
+}
+.location-card .loc_card .carddata .rent p{
+    color: #fecb01;
+    padding: 24px 0px;
+}
+.searchbar-appartments {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 50px;
+}
+.searchbar-appartments .search-bar {
+    width: 43%;
+    position: relative;
+}
+.searchbar-appartments h2{
+    background-color: white;
+    font-size: 12px;
+    padding: 12px 25px;
+    color: #21363b;
+}
+.work-data{
+    width: 30%;
+    margin: 25px 0px;
+}
+.work-data h1{
+    font-size: 24px;
+    color: #21363b;
+}
+.work-data p{
+    text-align: justify;
+    font-size: 12px;
+    color: #21363b;
+    line-height: 21px;
+}
+.workcard{
+    position: relative;
+    background-color: #ffcc01;
+    height: 330px;
+    overflow: hidden;
+}
+.numbercard{
+    position: absolute;
+    top: -77px;
+    left: -35px;
+    font-family: fantasy;
+    font-size: 163px;
+    color: white;
+    font-weight: 200;
+}
+.information{
+    padding: 130px 15px 30px 15px;
+    text-align: justify;
+}
+.information h3{
+    color: white;
+}
+.information p{
+    padding-left: 24px;
+    color: white;
+}
+.find-contact-btn{
+    margin-left: 77px;
+    color: white;
+    padding-bottom: 6px;
+    background-color: #ffcc01;
+    border: 2px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.fa-phone, .fa-location-dot{
+    padding: 0px 15px;
+}
+.workcard2{
+    position: relative;
+    background-color: white;
+    height: 330px;
+    overflow: hidden;
+}
+.information2{
+    padding: 130px 15px 30px 15px;
+    text-align: justify;
+}
+.information2 h3{
+    color: #21363b;
+}
+.information2 p{
+    padding-left: 24px;
+    color: #21363b;
+}
+.find-contact-btn2{
+    margin-left: 77px;
+    color: #21363b;
+    padding-bottom: 6px;
+    background-color:white;
+    border: 2px solid #21363b;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.numbercard2{
+    position: absolute;
+    top: -77px;
+    left: -35px;
+    font-family: fantasy;
+    font-size: 163px;
+    color: #21363b;
+    font-weight: 200;
+}
+.data-card{
+    box-shadow: 0px 0px 12px 6px #d3d3d385;
+    margin-right: 25px;
+}
+.rowcard{
+    display: flex;
+    width: 97.5%;
+}
+.services_card{
+    width: 47%;
+    height: 500px;
+    background-color: #b2d7e9;
+}
+.services-card-data{
+    display: flex;
+    align-items: center;
+}
+.head-serivces h1, .rent-sell-bild h1 {
+    font-size: 24px;
+    color: #21363b;
+}.head-serivces p{
+    width: 31%;
+}
+.head-serivces p, .rent-sell-bild p{
+    color: #21363b;
+    line-height: 21px;
+    font-size: 12px;
+}
+.services_data{
+    width: 28%;
+    margin-left: 100px;
+    color: #21363b;
+    font-weight: 300;
+}
+
+.agentdata h4{
+    padding: 10px 10px;
+    font-size: 12px;
+    color: #21363b;
+}
+.location-card .loc_card .agentdata .rent p{
+    color: #fecb01;
+    padding: 24px 0px;
+}
+.cardimg2{
+    background-color: #cdcdcf;
+    height: 230px;
+    margin-bottom: 8px;
+}
+.heading-loc-card p{
+    text-align: justify;
+    width: 26%;
+    color: #21363b;
+    padding: 15px 0px;
+    line-height: 21px;
+    font-size: 12px;
+}
+.fa-car-rear{
+    padding: 0px 5px;
+}
+.pic-btn{
+position: relative;
+
+}
+.bg-skyblue{
+    height: 250px;
+    background-color:#8ca4be;
+    width: 434px;
+}
+.loc-btn{
+position: absolute;
+bottom: -20px;
+left: 108px;
+}
+.df-loction-text{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.text-loc{
+    padding:0px 100px ;
+}
+
+.text-loc h1{
+    font-size: 28px;
+    color: #21363b;
+}
+.text-loc P{
+    font-size: 13px;
+    color: #21363b;
+    line-height: 24px;
+}
+.df-loction-text2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.df-loction-text2 .pic-btn .loc-btn {
+    position: absolute;
+    left:272px;
+    bottom: -15px;
+}
+.df-loction-text2 .pic-btn{
+    margin: 24px 49px;
+}
+.df-loction-text2 .text-loc {
+    padding: 0 83px 0 42px;
+    text-align: end;
+}
+.show-more{
+    background-color: #20373d;
+    color: white;
+    margin-left: 82px;
+    padding: 16px 32px;
+    font-size: 18px;
+}
+.textt{
+    color: #21363b;
+    padding: 0 83px; 
+}
+.df-loction-text3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pic-textt-btn{
+    width: 50%;
+}
+.pic-textt-btn p{
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.pic-textt-btn h1{
+    font-size: 28px;
+}
+
+.footer{
+background-color: #20373d;
+padding-right: 250px;
+}
+.footerheading{
+    color: white;
+}
+.footersearch{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    height: 40px;
+    padding: 10px;
+    width: 350px;
+}
+.search-bttn{
+    color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: black;
+    font-size: 15px;   
+    line-height: 40px;
+   }
+.footerheading h1{
+    font-size: 33px;
+}
+.footerheading h3{
+    font-size: 33px;
+}
+.footersection1{
+    display: flex;
+    justify-content: space-between;
+}
+.linebar{
+    padding: 1px;
+    background-color: #586a77;
+    margin: 66px 0px 0px 0px;
+    box-shadow: 0px 0px 2px 1px grey;
+}
+.footersection2{
+display: flex;
+justify-content:space-between;
+margin-top: 55px;
+}
+.footersection2 h5{
+color: white;
+}
+.luxestate1 h4{
+color: white;
+font-size: 24px;
+}
+.luxestate1 p{
+    color: white;
+    margin-top: 40px;
+    width: 54%;
+    font-size: 12px;
+}
+.luxestate2 h4,.company h4,.products h4,.Services1 h4{
+    color:#586a77;
+    margin-bottom: 30px;
+}
+
+.luxestate2 h5,.company h5,.products h5,.Services1 h5{
+    margin-top: 10px;
+    color:white;
+    font-weight: 200;
+}
+@media screen and (max-width:1440px)
+{
+.contact-address{
+    left: 531px;
+}
+
+.px-200{
+    padding-left: 205px;
+    padding-right: 205px;
+}
+.services_data {
+    width: 27%;
+}
+.footer{
+    padding-left: 205px;
+    padding-right: 255px;
+}
+}
+@media screen and (max-width:1024px)
+{
+li{
+    margin-right: 0px;
+    font-size: 14px;
+}
+.contact-address{
+    left: 343px;
+}
+.contact, .address {
+    font-size: 12px;
+}
+.heading-loc-card h1 {
+    width: 50%;
+}
+.px-200{
+    padding-left: 157px;
+    padding-right: 157px;
+}
+.loc_card {
+margin-right: 47px;
+}
+.carddata h4 {
+    padding: 10px;
+}
+.rent {
+    padding: 0px 5px 0px 8px;
+}
+.location-card .loc_card .carddata .rent p {
+    padding: 4px 3px;
+}
+.location-card .loc_card .agentdata .rent p {
+    padding: 4px 3px;
+}
+.texi {
+    margin-left: 4px;
+}
+.data-card{
+    margin-right: 36px;
+}
+.services_card {
+    width: 35%;
+}
+.df-loction-text .bg-skyblue{
+    width: 335px;
+}
+.df-loction-text .text-loc{
+    padding: 0 50px;
+}
+.df-loction-text .text-loc h1, .df-loction-text2 .text-loc h1, .df-loction-text3 .text-loc h1{
+    font-size: 22px;
+}
+.df-loction-text .text-loc p, .df-loction-text2 .text-loc p, .df-loction-text3 .text-loc p{
+    font-size: 11px;
+}
+.df-loction-text2 .bg-skyblue{
+    width: 335px;
+    margin-right: 50px;
+}
+.df-loction-text2 .pic-btn {
+    margin: 24px 0px;
+}
+.df-loction-text2 .text-loc{
+    padding: 0 50px 0 0;
+}
+.df-loction-text3 .bg-skyblue{
+    width: 335px;
+}
+.textt{
+    padding: 24px 50px;
+}
+.pic-textt-btn h1 {
+    font-size: 22px;
+}
+.pic-textt-btn p {
+    font-size: 11px;
+}
+.show-more{
+    padding: 10px 20px;
+}
+.footer{
+    padding-left: 155px !important;
+    padding-right: 200px !important;
+}
+.footerheading h3 {
+    font-size: 25px;
+}
+.footerheading h1 {
+    font-size: 25px;
+}
+.footersearch{
+    width: 280px;
+    margin-right: 6px;
+}
+.loc-btn{
+    left: 75px;
+}
+.df-loction-text2 .pic-btn .loc-btn {
+    left: 180px;
+}
+}
+@media screen and (max-width:768px)
+{
+.submit {
+    padding: 3px 1px;
+}
+.join {
+    margin-right: 0;
+}
+.baner {
+    top: 75px;
+}
+.heading h1 {
+    font-size: 22px;
+}
+.sky-blue {
+    height: 350px;
+    width: 100%;
+}
+.baner{
+    text-align: center;
+    width: 100%;
+}
+.heading{
+    width: 100%;
+}
+.contact-address {
+    left: 244px;
+}
+.contact {
+    padding: 14px 4px;
+}
+.contact,.address{
+    font-size: 10px;
+}
+.search-bar input {
+    padding: 14px 14px;
+    height: 34.5px;
+    font-size: 10px;
+}
+.search-bar{
+    border-radius: 0;
+    width: 60%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0;
+}
+.search-bar i {
+    font-size: 10px;
+    left: 1px;
+}
+.searchbtn {
+    padding: 12px 6px;
+    font-size: 10px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+.scroll p {
+    font-size: 12px;
+}
+.scroll {
+    left: -5%;
+    bottom: -155px;
+}
+.statistics {
+    flex-direction: column;
+}
+.cards {
+    padding: 50px 70px;
+}
+.cards h1{
+    font-size: 45px;
+}
+.cards p{
+    font-size: 15px;
+}
+.para h1 {
+    width: 100%;
+    margin-top: 12px;
+    font-size: 20px;
+}
+.para{
+    font-size: 10px;
+    text-align: justify;
+    width: 100%;
+}
+.heading-loc-card h1 {
+    width: 100%;
+    font-size: 20px;
+}
+.company-cards {
+    display: flex;
+}
+.static-cards {
+    margin: 3px 15px;
+}
+.location-card{
+    flex-direction: column;
+}
+.loc_card {
+    margin-right: 0;
+    width: 100%;
+}
+.work-data {
+    width: 100%;
+}
+.work-data h1{
+    font-size: 20px;
+}
+.data-card{
+    margin-right: 0;
+    margin-bottom: 35px;
+}
+.rowcard {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.numbercard {
+    top: -44px;
+}
+.information, .information2 {
+    padding: 124px 15px 60px 15px;
+}
+.information h3, .information2 h3 {
+    text-align: center;
+}
+.information p, .information2 p {
+    line-height: 25px;
+    padding-left: 0px;
+    margin: 5px 81px;
+    font-size: 14px;
+}
+.find-contact-btn, .find-contact-btn2 {
+    margin-left: 185px;
+}
+.head-serivces h1, .rent-sell-bild h1{
+    font-size: 20px;
+}
+.head-serivces p, .rent-sell-bild p{
+    font-size: 12px;
+    width: 100%;
+    text-align: justify;
+}
+.services_card {
+    width: 69.5%;
+    height: 200px;
+}
+.services-card-data{
+    flex-direction: column;
+}
+.services_data {
+    width: 68.5%;
+    margin-left: -15px;
+    margin-top: 12px;
+}
+.street-card {
+    padding-left: 116px;
+    padding-right: 116px;
+}
+.heading-loc-card p {
+    width: 100%;
+}
+.fa-car-rear{
+    padding: 0 15px;
+}
+.df-loction-text, .df-loction-text2, .df-loction-text3{
+flex-direction: column;
+}
+.df-loction-text .bg-skyblue, .df-loction-text2 .bg-skyblue, .df-loction-text3 .bg-skyblue {
+    width: 535px;
+}
+.df-loction-text2 .bg-skyblue{
+    margin-right: 0px;
+}
+.loc-btn {
+    left: 160px;
+}
+.df-loction-text2 .text-loc {
+    text-align: justify;
+    padding: 0px 13px 0 0;
+}    
+.df-loction-text .text-loc {
+    padding: 37px 0px;
+    text-align: justify;
+    margin-right: 16px;
+    margin-left: -1px;
+}
+.pic-textt-btn {
+    width: 100%;
+}
+.textt {
+    padding: 26px 17px 12px 0px;
+    margin-left: -2px;
+    text-align: justify;
+}
+.show-more {
+    margin-left: 150px;
+}
+.footer {
+    padding-left: 115px !important;
+    padding-right: 115px !important;
+}
+.footerheading h1 {
+    font-size: 18px;
+}
+.footerheading h3 {
+    font-size: 18px;
+}
+.footersearch {
+    width: 200px;
+    height: 20px;
+    margin-right: 0;
+}
+.search-bttn{
+    height: 20px;
+}
+.search-txt {
+    font-size: 13px;
+}
+.luxestate1 h4 {
+    font-size: 16px;
+}
+.luxestate1 p {
+    font-size: 10px;
+}
+.luxestate2 h4, .company h4, .products h4, .Services1 h4 {
+    font-size: 13px;
+}
+.luxestate2 h5, .company h5, .products h5, .Services1 h5 {
+font-size: 10px;
+}
+}
+@media screen and (max-width:500px){
+.mx-15{
+    margin-left: 0;
+    margin-right: 0;
+}
+.my-20{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.navigation{
+    flex-direction: column;
+}
+li {
+    font-size: 13px;
+}
+.heading h1 {
+    font-size: 18px;
+}
+.sky-blue{
+    height: 250px;
+}
+.baner {
+    top: 40px;
+}
+.search-bar input {
+    padding: 8px 0px;
+    height: 14.5px;
+    font-size: 8px;
+    margin-left: 12px;
+}
+.search-bar {
+    padding: 8px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.searchbtn {
+    padding: 8px 3px;
+    border-radius: 0;
+}
+.scroll {
+    bottom: -100px;
+    left: 37.5%;
+}
+.contact, .address {
+    font-size: 13px;
+}
+.contact {
+    padding: 7px 18px;
+}
+.address {
+    padding: 7px 4px;
+}
+.contact-address {
+    left: 0px;
+    width: 100%;
+    justify-content: space-between;
+}
+.fa-phone, .fa-location-dot{
+    padding: 0px 5px;
+}
+.statistics {
+    flex-direction: column;
+}
+.para {
+    width: 100%;
+}
+.para p {
+    margin: 0 15px;
+    text-align: justify;
+}
+.para h1 {
+    margin: 10px 15px;
+    width: auto;
+}
+.px-200{
+    padding-left: 0;
+    padding-right: 0;
+}
+.py-100{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.heading-loc-card h1 {
+    width: 90%;
+    margin-left: 16px;
+    font-size: 15px;
+}
+.loc_card {
+    margin-right:0px;
+    width: 90%;
+    margin-left: 16px;
+}
+.searchbar-appartments {
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 50px;
+    flex-direction: column;
+}
+.all-appartments {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.searchbar-appartments  h2{
+    font-size: 12px;
+    margin: auto;
+    width: auto;
+    padding: 10px 40px;
+}
+.searchbar-appartments .search-bar {
+    margin-left: auto;
+    width: 75%;
+    margin-right: auto;
+}
+.work {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.data-card {
+    margin-right: 0;
+}
+.information p, .information2 p{
+    margin: 5px 27px 0 27px;
+    font-size: 13px;
+}
+.find-contact-btn, .find-contact-btn2 {
+    margin-left: 90px;
+}
+.head-serivces {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.services_card {
+    width: 88.5%;
+}
+.services_data {
+    width: 90%;
+    margin-left: 0;
+}
+.heading-loc-card p {
+    width: 90%;
+    margin-left: 16px;
+}
+.df-loction-text .bg-skyblue, .df-loction-text2 .bg-skyblue, .df-loction-text3 .bg-skyblue {
+    width: 300px;
+}
+.loc-btn {
+    bottom: -10px;
+    left: 60px;
+}
+.loc-btn p{
+    padding: 3px 24px;
+}
+.df-loction-text .text-loc {
+    margin-left: 14px;
+}.df-loction-text2 .pic-btn .loc-btn {
+    left: 60px;
+}
+.df-loction-text2 .text-loc {
+    margin-left: 16px;
+    padding: 0px 16px 0 0;
+}
+.textt {
+    padding: 26px 11px 12px 0px;
+    margin-left: 16px;
+}
+.company-cards{
+    flex-direction: column;
+    margin: 0;
+}
+.show-more {
+    font-size: 13px;
+    margin-left: 90px;
+    margin-bottom: 10px;
+}
+.footer{
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+.footersection1 {
+    flex-direction: column;
+}
+.footerheading h3 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+.footerheading h1 {
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+.footersearch {
+    height: 10px;
+    margin-left: 40px;
+}
+.search-bttn {
+    height: 10px;
+}
+.luxestate1 h4 {
+    font-size: 13px;
+}
+.luxestate1 p {
+    font-size: 8px;
+    width: auto;
+}
+.luxestate2 h4, .company h4, .products h4, .Services1 h4 {
+    font-size: 10px;
+}
+.luxestate2 h5, .company h5, .products h5, .Services1 h5 {
+    font-size: 8px;
+}
+.cards {
+    padding: 30px;
+    MARGIN-LEFT: 13PX;
+}
+}
